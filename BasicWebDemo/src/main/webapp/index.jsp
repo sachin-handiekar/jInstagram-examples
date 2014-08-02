@@ -12,7 +12,7 @@
     // If we already have an instagram object, then redirect to profile.jsp
     Object objInstagram = session.getAttribute(Constants.INSTAGRAM_OBJECT);
     if (objInstagram != null) {
-        response.sendRedirect("/profile");
+        response.sendRedirect(request.getContextPath() + "/profile.jsp");
     }
 
     Properties properties = InstagramUtils.getConfigProperties();

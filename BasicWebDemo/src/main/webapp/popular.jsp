@@ -18,7 +18,7 @@
     if (objInstagram != null) {
         instagram = (Instagram) objInstagram;
     } else {
-        response.sendRedirect("index");
+        response.sendRedirect(request.getContextPath() + "/index.jsp");
         return;
     }
 
@@ -42,11 +42,11 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="profile">Profile</a></li>
-                <li><a href="gallery">Gallery</a></li>
-                <li class="active"><a href="popular">Popular</a></li>
-                <li><a href="search">Search</a></li>
-                <li><a href="logout">Logout</a></li>
+                <li><a href="profile.jsp">Profile</a></li>
+                <li><a href="gallery.jsp">Gallery</a></li>
+                <li class="active"><a href="popular.jsp">Popular</a></li>
+                <li><a href="search.jsp">Search</a></li>
+                <li><a href="logout.jsp">Logout</a></li>
 
             </ul>
         </div>

@@ -27,12 +27,7 @@
           <artifactId>javax.servlet-api</artifactId>
           <version>3.0.1</version>
           <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.tuckey</groupId>
-          <artifactId>urlrewritefilter</artifactId>
-          <version>4.0.3</version>
-      </dependency>
+      </dependency> 
   </dependencies>
     <build>
         <plugins>
@@ -40,6 +35,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                <version>2.3</version>
                 <configuration>
+                    <warName>BasicWebDemo</warName>
                     <webResources>
                         <resource>
                             <targetPath>WEB-INF</targetPath>
@@ -48,6 +44,7 @@
                             <includes>
                                 <include>*.xml</include>
                             </includes>
+
                         </resource>
                     </webResources>
                 </configuration>
