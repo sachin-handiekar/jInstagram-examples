@@ -2,7 +2,11 @@ jInstagram-examples
 ===================
 
 
-#Basic Web Demo
+#Basic Web Demo 
+
+## Live Demo 
+
+[Demo Url](http://jinstagram-sachinhandiekar.rhcloud.com/BasicWebDemo/)
 
 ##How to use it
 
