@@ -10,15 +10,13 @@
 
     <title>jInstagram - Basic Web Application</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet" />
 
-    <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/theme/theme.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="http://startbootstrap.com/templates/thumbnail-gallery/css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.css" rel="stylesheet" />
+
 
     <script src="js/ie-emulation-modes-warning.js"></script>
     <style type="text/css"></style>

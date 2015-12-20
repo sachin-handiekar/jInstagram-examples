@@ -60,16 +60,12 @@
     <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header">Popular Media</h1>
+            <h1 class="page-header">Popular Media (Depreceated)</h1>
         </div>
         <%
 
             MediaFeed mediaFeed = instagram.getPopularMedia();
-
-
             List<MediaFeedData> mediaList = mediaFeed.getData();
-
-
             int mediaCount = mediaList.size();
 
         %>

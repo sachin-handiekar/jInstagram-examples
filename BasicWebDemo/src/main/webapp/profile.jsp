@@ -61,21 +61,15 @@
         <div class="col-lg-12">
             <h1 class="page-header">User Profile</h1>
         </div>
-        <%
-            UserInfoData userInfoData = instagram.getCurrentUserInfo().getData();
-
-        %>
+        <% UserInfoData userInfoData = instagram.getCurrentUserInfo().getData();         %>
         <p class="lead">
 
-            <img src="<%=userInfoData.getProfile_picture()%>"/> <br/>
+            <img src="<%= userInfoData.getProfilePicture() %>"/> <br/>
 
         <p>Username : <%=userInfoData.getUsername()%>
         </p>
 
-        <p>First Name : <%=userInfoData.getFirst_name()%>
-        </p>
-
-        <p>Last Name : <%=userInfoData.getLast_name()%>
+        <p>Full Name : <%=userInfoData.getFullName()%>
         </p>
 
         <p>Bio : <%=userInfoData.getBio()%>
@@ -87,7 +81,7 @@
         <p>Follows : <%=userInfoData.getCounts().getFollows()%>
         </p>
 
-        <p>Followed By : <%=userInfoData.getCounts().getFollwed_by()%>
+        <p>Followed By : <%=userInfoData.getCounts().getFollowedBy()%>
         </p>
 
         <p>Media Count : <%=userInfoData.getCounts().getMedia()%>
