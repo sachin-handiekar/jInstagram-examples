@@ -17,9 +17,9 @@
 
     Properties properties = InstagramUtils.getConfigProperties();
 
-    String clientId = properties.getProperty(Constants.CLIENT_ID);
-    String clientSecret = properties.getProperty(Constants.CLIENT_SECRET);
-    String callbackUrl = properties.getProperty(Constants.REDIRECT_URI);
+    String clientId = System.getenv(Constants.CLIENT_ID);
+    String clientSecret =  System.getenv(Constants.CLIENT_SECRET);
+    String callbackUrl =  System.getenv(Constants.REDIRECT_URI);
 
 
     InstagramService service = new InstagramAuthService()
