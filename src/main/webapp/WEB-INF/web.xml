@@ -5,6 +5,12 @@
 <web-app>
   <display-name>jInstagram - Basic Web Demo</display-name>
 
+
+    <listener>
+        <listener-class>com.sachinhandiekar.examples.listener.DemoAppContextListener</listener-class>
+    </listener>
+
+
     <servlet>
         <servlet-name>InstagramTokenHandler</servlet-name>
         <servlet-class>com.sachinhandiekar.examples.InstagramTokenHandler</servlet-class>

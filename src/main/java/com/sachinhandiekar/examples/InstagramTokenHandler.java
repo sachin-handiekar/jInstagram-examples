@@ -18,7 +18,7 @@ public class InstagramTokenHandler extends HttpServlet {
         String code = request.getParameter("code");
 
 
-        InstagramService service = (InstagramService) request.getSession().getAttribute(Constants.INSTAGRAM_SERVICE);
+        InstagramService service = (InstagramService) request.getServletContext().getAttribute(Constants.INSTAGRAM_SERVICE);
 
         Verifier verifier = new Verifier(code);
 

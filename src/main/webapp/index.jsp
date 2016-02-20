@@ -15,22 +15,23 @@
         response.sendRedirect(request.getContextPath() + "/profile.jsp");
     }
 
-    Properties properties = InstagramUtils.getConfigProperties();
+    InstagramService service = (InstagramService) session.getServletContext().getAttribute(Constants.INSTAGRAM_SERVICE);
 
-    String clientId = System.getenv(Constants.CLIENT_ID);
-    String clientSecret =  System.getenv(Constants.CLIENT_SECRET);
-    String callbackUrl =  System.getenv(Constants.REDIRECT_URI);
-
-
-    InstagramService service = new InstagramAuthService()
-            .apiKey(clientId)
-            .apiSecret(clientSecret)
-            .callback(callbackUrl)
-            .build();
+//
+//    String clientId = System.getenv(Constants.CLIENT_ID);
+//    String clientSecret =  System.getenv(Constants.CLIENT_SECRET);
+//    String callbackUrl =  System.getenv(Constants.REDIRECT_URI);
+//
+//
+//    InstagramService service = new InstagramAuthService()
+//            .apiKey(clientId)
+//            .apiSecret(clientSecret)
+//            .callback(callbackUrl)
+//            .build();
 
     String authorizationUrl = service.getAuthorizationUrl();
 
-    session.setAttribute(Constants.INSTAGRAM_SERVICE, service);
+  //  session.setAttribute(Constants.INSTAGRAM_SERVICE, service);
 %>
 
 <div class="container">
