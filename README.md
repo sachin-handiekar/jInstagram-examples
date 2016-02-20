@@ -6,7 +6,7 @@ jInstagram-examples
 
 ## Live Demo 
 
-[jInstagram Web Demo](http://jinstagramdemo.herokuapp.com/index.jsp)
+[jInstagram Web Demo](http://jinstagram-demo.herokuapp.com/)
 
 ##How to use it
 
