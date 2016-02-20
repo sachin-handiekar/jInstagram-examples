@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
     <groupId>com.sachinhandiekar.jInstagram</groupId>
-    <artifactId>jInstagram-demo</artifactId>
+    <artifactId>IGWebDemo</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>jInstagram Demo Webapp</name>
@@ -31,7 +31,7 @@
         </dependency>
     </dependencies>
     <build>
-    <finalName>webappRunnerSample</finalName>
+    <finalName>IGWebDemo</finalName>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
