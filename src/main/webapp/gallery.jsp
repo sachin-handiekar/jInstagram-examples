@@ -60,7 +60,7 @@
             <h1 class="page-header">Gallery</h1>
         </div>
         <%
-            List<MediaFeedData> mediaList = instagram.getUserFeeds().getData();
+            List<MediaFeedData> mediaList = instagram.getUserRecentMedia().getData();
 
         %>
 
