@@ -44,7 +44,6 @@
             <ul class="nav navbar-nav">
                 <li><a href="profile.jsp">Profile</a></li>
                 <li><a href="gallery.jsp">Gallery</a></li>
-                <li><a href="popular.jsp">Popular</a></li>
                 <li class="active"><a href="search.jsp">Search</a></li>
                 <li><a href="logout.jsp">Logout</a></li>
 

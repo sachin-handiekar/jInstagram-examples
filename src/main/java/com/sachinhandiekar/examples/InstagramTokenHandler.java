@@ -14,9 +14,10 @@ import java.io.IOException;
 
 public class InstagramTokenHandler extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        String code = request.getParameter("code");
+    private static final String CODE = "code";
 
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+        String code = request.getParameter(CODE);
 
         InstagramService service = (InstagramService) request.getServletContext().getAttribute(Constants.INSTAGRAM_SERVICE);
 
