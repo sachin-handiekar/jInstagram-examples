@@ -1,3 +1,5 @@
+# Note: This example is based on the legacy Instagram API and is not using the latest Graph API provided by Instagram. Please see the RestFB library for more details in using the new API (https://restfb.com/).
+
 jInstagram-examples
 ===================
 
